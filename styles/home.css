@@ -69,3 +69,16 @@
     font-size: 3rem;
     width: 80%;
 }
+.goblin {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:forestgreen;
+    border: 10px;
+    border-color: darkgreen;
+    margin: 20px;
+    font-size: 2rem;
+    border-radius: 15px;
+    color:white;
+    padding: 5px;
+}
