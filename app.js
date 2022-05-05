@@ -1,8 +1,5 @@
 // import functions and grab DOM elements
 
-const defeatedNumberEl = document.querySelector('#defeated-number');
-const spidermanHPEl = document.querySelector('#spidermans-hp');
-const spidermanImgEl = document.querySelector('#spiderman-img');
 
 const form = document.querySelector('form');
 
@@ -20,13 +17,6 @@ form.addEventListener('submit', (e) => {
 
     const data = new FormData(form);
     const goblinName = data.get('goblin-name');
-
-    const newGoblin = {
-        name: goblinName,
-        hp: Math.ceil(Math.random() * 5),
-    };
-
-    goblins.push(newGoblin);
 
 });
   // get user input
