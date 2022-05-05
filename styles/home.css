@@ -1,5 +1,5 @@
 /* add home page styles here */
-h1 {
+/* h1 {
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -8,31 +8,41 @@ h1 {
     background-color:darkgray;
     padding: 10px;
     border-radius: 15px;
-}
+} */
 .spiderman img{
     width: 500px;
 }
 .spiderman-stats {
     /* width: 50%;
-    height: 100%;
-    flex-direction: column;
+    height: 100%;  */
+    /* flex-direction: column;
     align-items: center;
-    justify-content: space-between; */
+    justify-content: space-between;  */
     position: relative;
-    left: -450px;
+    left: -200px;
+}
+#spiderman-stats {
+    display:flex;
+    flex-direction: column;
 }
 .spiderman {
     text-align: center;
     padding: 5px;
 }
-
-.goblin-stats {
-    width: 50%;
-    display: flex;
+#goblin-stats {
+    display:flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
 }
+.goblin-stats {
+    /* width: 50%; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* align-items: center;
+    justify-content: space-between;  */
+    position: relative;
+    right: -200px;
+    
+} 
 
 .defeated-goblins { 
     text-align: center;
@@ -50,4 +60,12 @@ h1 {
     background-color:blue;
     padding: 20px;
     border-radius: 15px;
+}
+.goblins-stats button {
+    font-size: 2em;
+    width: 100%;
+}
+.goblin-stats input {
+    font-size: 3rem;
+    width: 80%;
 }
