@@ -14,12 +14,9 @@
 
 <body>
     <header>
-        <div class="gutter-right logo">
-            <img src="./assets/big-logo.png" />
-        </div>
     </header>
     <main>
-        <h1>Goblin Fighter!!</h1>
+        <h1>Green Goblin Fighter!!</h1>
         <div class="spiderman-stats">
             <div class="defeated-goblins">
                 <p>You have defeated <span id="defeated-number">0</span> goblins</p>
@@ -27,15 +24,24 @@
             </div>
             <div class="spiderman">
                 <p>
-                    Spiderman's HP
+                    Spiderman's HP:
                     <span id="spidermans-hp">2</span>
                 </p>
                 <img id="spiderman-img" src="./assets/Spiderman.png"/>
             </div>
         </div>
+        <div class="goblin-stats">
+            <div>
+                <form>
+                    <input name="goblin-name"/>
+                    <button>Fight Goblin</button>
+                </form>
+                <div class="goblins"></div>
+            </div>
+        </div>
     </main>
     <footer>
-        <div class="copy gutter-right">&copy; 2021 Alchemy Code Lab</div>
+        <div class="copy gutter-right">&copy; 2022 Alchemy Code Lab</div>
     </footer>
 
     <script type="module" src="./app.js"></script>
