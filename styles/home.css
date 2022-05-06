@@ -66,19 +66,21 @@
     width: 100%;
 }
 .goblin-stats input {
-    font-size: 3rem;
+    font-size: 2rem;
     width: 80%;
+
 }
 .goblin {
     display:flex;
     justify-content: center;
     align-items: center;
     background-color:forestgreen;
-    border: 10px;
+    border: 5px;
     border-color: darkgreen;
     margin: 20px;
     font-size: 2rem;
     border-radius: 15px;
     color:white;
     padding: 5px;
+    cursor: pointer;
 }
