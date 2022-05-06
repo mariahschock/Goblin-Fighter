@@ -56,6 +56,7 @@ function goblinClickHandler(goblin) {
     const playerHit = Math.random() * 2 ;
     if (playerHit < 1) {
         goblin.hp--;
+        playerHP++;
 
         displayGoblins();
         alert(`Your web hit ${goblin.name}!`);
@@ -70,6 +71,7 @@ function goblinClickHandler(goblin) {
     const goblinHit = Math.random() * 2 ;
     if (goblinHit < 1) {
         playerHP--;
+        goblin.hp++;
         spidermanHP.textContent = playerHP;
         alert(`${goblin.name} strikes you with laser blast!`);
 
