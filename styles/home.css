@@ -1,1 +1,71 @@
-/* add home page styles here */
+
+.spiderman img{
+    width: 500px;
+}
+.spiderman-stats {
+    position: relative;
+    left: -150px;
+}
+#spiderman-stats {
+    display:flex;
+    flex-direction: column;
+}
+.spiderman {
+    text-align: center;
+    padding: 5px;
+}
+#goblin-stats {
+    display:flex;
+    flex-direction: column;
+}
+.goblin-stats {
+    position: relative;
+    right: -150px;
+    
+} 
+
+.defeated-goblins { 
+    text-align: center;
+} 
+.defeated-goblins p {
+    font-size: 1.5rem;
+    color: white;
+    background-color: red;
+    padding: 20px;
+    border-radius: 15px;
+}
+.spiderman p {
+    font-size: 1.5rem;
+    color: white;
+    background-color:blue;
+    padding: 20px;
+    border-radius: 15px;
+}
+.goblins-stats button {
+    font-size: 2em;
+    width: 100%;
+}
+.goblin-stats input {
+    font-size: 2rem;
+    width: 70%;
+
+}
+.goblin {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color:forestgreen;
+    border: 5px;
+    border-color: darkgreen;
+    margin: 20px;
+    font-size: 2rem;
+    border-radius: 15px;
+    color:white;
+    padding: 5px;
+    cursor: pointer;
+}
+.goblin img {
+    width: 475px;
+    position: absolute;
+}
